@@ -1,5 +1,33 @@
+body {
+  background-color: #0d192b;
+}
+
+body #card {
+  width: 20rem;
+  background-color: #14253d;
+}
+
 .normal-text {
   font-family: "Outfit", sans-serif;
-  color: #8bacda;
   font-weight: 300;
+  color: #8bacda;
+  font-size: 18px;
+}
+
+#title-text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+p span {
+  font-weight: 400;
+  color: white;
+}
+
+#price {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: #00fff7;
 }
