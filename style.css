@@ -1,10 +1,24 @@
 body {
   background-color: #0d192b;
+  width: 100vw;
+  height: fit-content;
 }
 
 body #card {
-  width: 20rem;
+  max-height: 85%;
+  width: 90%;
+  max-width: 300px;
   background-color: #14253d;
+  padding: 1rem;
+  /* Hack to center div without flexbox */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main-image {
+  max-width: 100%;
 }
 
 .normal-text {
