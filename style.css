@@ -59,8 +59,9 @@ body #card {
 
 #main-image-frame #cover {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1;
   background-color: rgba(0, 255, 247, 0);
+  border-radius: .5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
