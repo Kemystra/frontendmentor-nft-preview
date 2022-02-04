@@ -53,6 +53,7 @@ body #card {
   font-weight: 600;
   color: white;
   font-size: 2rem;
+  margin: 0;
 }
 
 p span {
@@ -65,4 +66,27 @@ p span {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   color: #00fff7;
+}
+
+hr {
+  width: 100%;
+  color: #2f415b;
+}
+
+#avatar-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
+}
+
+#avatar-info #avatar-frame {
+  background-color: white;
+  border-radius: 50%;
+  height: 100%;
+}
+
+#avatar-info #avatar-frame img {
+  max-height: 95%;
 }
