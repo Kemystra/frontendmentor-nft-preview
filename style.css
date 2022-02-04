@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   background-color: #0d192b;
   width: 100vw;
@@ -5,11 +10,13 @@ body {
 }
 
 body #card {
-  max-height: 85%;
-  width: 90%;
-  max-width: 300px;
+  max-height: 90%;
+  min-height: 0;
+  width: 88%;
+  max-width: 360px;
   background-color: #14253d;
-  padding: 1rem;
+  padding: 25px;
+  border-radius: 1rem;
   /* Hack to center div without flexbox */
   position: absolute;
   top: 50%;
@@ -19,6 +26,7 @@ body #card {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 1rem;
 }
 
 #panels-space {
@@ -39,6 +47,7 @@ body #card {
 
 #main-image {
   max-width: 100%;
+  border-radius: 0.5rem;
 }
 
 .normal-text {
@@ -52,8 +61,7 @@ body #card {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 2rem;
-  margin: 0;
+  font-size: 1.5rem;
 }
 
 p span {
@@ -85,4 +93,8 @@ hr {
   max-height: 100%;
   border: 1px solid white;
   border-radius: 50%;
+}
+
+#avatar-info p {
+  margin-left: 20px;
 }
