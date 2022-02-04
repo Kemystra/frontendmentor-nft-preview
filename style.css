@@ -26,7 +26,8 @@ body #card {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.2rem;
+  box-shadow: 0 2rem 5px 1rem #00000020;
 }
 
 #panels-space {
