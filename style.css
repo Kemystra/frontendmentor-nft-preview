@@ -17,6 +17,21 @@ body #card {
   transform: translate(-50%, -50%);
 }
 
+#panels-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#panels-space .panel {
+  min-width: 6.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #main-image {
   max-width: 100%;
 }
