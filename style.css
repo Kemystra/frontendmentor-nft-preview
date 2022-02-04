@@ -83,8 +83,6 @@ body #card {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   color: #8bacda;
-  font-size: 18px;
-  line-height: 1.5rem;
 }
 
 #title-text {
@@ -92,6 +90,11 @@ body #card {
   font-weight: 600;
   color: white;
   font-size: 1.3rem;
+}
+
+#body-text {
+  font-size: 18px;
+  line-height: 1.5rem;
 }
 
 p span {
