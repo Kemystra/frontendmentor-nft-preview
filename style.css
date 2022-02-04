@@ -81,12 +81,8 @@ hr {
   height: 2rem;
 }
 
-#avatar-info #avatar-frame {
-  background-color: white;
+#avatar-info img {
+  max-height: 100%;
+  border: 1px solid white;
   border-radius: 50%;
-  height: 100%;
-}
-
-#avatar-info #avatar-frame img {
-  max-height: 95%;
 }
